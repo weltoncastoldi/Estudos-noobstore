@@ -11,7 +11,7 @@ namespace NoobStore.Catalogo.Domain.Interfaces
         Task<IEnumerable<Produto>> ObterTodo();
         Task<Produto> ObterPorId(Guid id);
         
-        Task<IEnumerable<Produto>> ObterPorCategoria();
+        Task<IEnumerable<Produto>> ObterPorCategoria(int codigo);
         Task<IEnumerable<Categoria>> ObterCategorias();
 
         void Adicionar(Produto produto);

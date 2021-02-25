@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using NoobStore.Core.DomainObjects;
 
 namespace NoobStore.Catalogo.Domain.Entidades
@@ -23,6 +25,11 @@ namespace NoobStore.Catalogo.Domain.Entidades
             Validacoes.ValidarSeVazio(Nome,"O campo nao da categoria nao pode estar vazio");
             Validacoes.ValidarSeIgual(Codigo, 0,"O campo codigo nao pode ser 0");
         }
+        
+        // Para Entity Framework
+        public ICollection<Produto>Produtos { get; set; }
+        protected Categoria(){}
+        
     }
 
 }
