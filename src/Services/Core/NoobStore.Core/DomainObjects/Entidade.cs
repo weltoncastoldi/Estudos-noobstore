@@ -1,6 +1,6 @@
 using System;
 
-namespace NoobStore.Catalogo.Domain.DomainObjects
+namespace NoobStore.Core.DomainObjects
 {
     public abstract class Entidade
     {
@@ -17,11 +17,6 @@ namespace NoobStore.Catalogo.Domain.DomainObjects
             return $"{GetType().Name} [Id= {Id}]";
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
         public override bool Equals(object obj)
         {
             var compareTo = obj as Entidade;

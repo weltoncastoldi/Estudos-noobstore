@@ -1,4 +1,4 @@
-namespace NoobStore.Catalogo.Domain
+namespace NoobStore.Core.DomainObjects
 {
     public interface IAggregateRoot
     {
