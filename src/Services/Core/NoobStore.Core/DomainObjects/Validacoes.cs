@@ -45,7 +45,6 @@ namespace NoobStore.Core.DomainObjects
         {
             if (valor <= minimo) throw new DomainException(mensagem);
         }
-        
         public static void ValidarSeFalso(bool boolvalor, string mensagem)
         {
             if (boolvalor) throw new DomainException(mensagem);
