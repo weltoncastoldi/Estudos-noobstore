@@ -46,5 +46,10 @@ namespace NoobStore.Core.DomainObjects
         {
             return !(a == b);
         }
+
+        public virtual bool EhValido()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
