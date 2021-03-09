@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using NoobStore.Catalogo.Domain.Entidades;
 
@@ -36,7 +31,6 @@ namespace NoobStore.Catalogo.Data.Mappings
                 cm.Property(c => c.Largura).HasColumnName("Largura").HasColumnType("int");
                 cm.Property(c => c.Profundidade).HasColumnName("Profundidade").HasColumnType("int");
             });
-            
         }
     }
 }
