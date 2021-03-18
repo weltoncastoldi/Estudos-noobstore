@@ -3,7 +3,7 @@ using NoobStore.Core.Messages;
 
 namespace NoobStore.Core.Bus
 {
-    public interface IMediatrHandler
+    public interface IMediatorHandler
     {
         /// <summary>
         /// Fazer a publicacao de evento se a classe for do tipo evento
@@ -12,5 +12,13 @@ namespace NoobStore.Core.Bus
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
         Task PublicarEvento<T>(T evento) where T : Evento;
+
+        /// <summary>
+        /// Fazer a publicacao do comando se a classe for do tipo commmad
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="comando"></param>
+        /// <returns></returns>
+        Task<bool> EnviarComando<T>(T comando) where T : Command;
     }
 }
