@@ -7,7 +7,7 @@ namespace NoobStore.Catalogo.Application.ViewModels
     public class ProdutoViewModel
     {
         [Key]
-        public Guid Guid { get; set; }
+        public Guid Id { get; set; }
         
         [Required(ErrorMessage = "Campo {o} e obrigatório")]
         public Guid CategoriaId { get; set; }

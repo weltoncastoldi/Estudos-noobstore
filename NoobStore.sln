@@ -37,13 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoobStore.Vendas.Data", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoobStore.Catalogo.Application", "src\Services\Catalogo\NoobStore.Catalogo.Application\NoobStore.Catalogo.Application.csproj", "{A5D5200F-E1C7-475A-856C-8B5A7350F30F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobStore.Api", "src\API\NoobStore.Api\NoobStore.Api.csproj", "{827CE436-6AEA-4C5A-979C-3A084D48120C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoobStore.Api", "src\API\NoobStore.Api\NoobStore.Api.csproj", "{827CE436-6AEA-4C5A-979C-3A084D48120C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D266A9A5-0076-47F4-84D3-F7C8C6ABDC76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{D821635D-B0C4-4356-AAE4-618BBE000C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobStore.Infra.Ioc", "src\Infra\NoobStore.Infra.Ioc\NoobStore.Infra.Ioc.csproj", "{A0E51139-05ED-4FC8-90E6-076B34C300A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoobStore.Infra.Ioc", "src\Infra\NoobStore.Infra.Ioc\NoobStore.Infra.Ioc.csproj", "{A0E51139-05ED-4FC8-90E6-076B34C300A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobStore.WebApps.Mvc", "src\WebApps\NoobStore.WebApps.Mvc\NoobStore.WebApps.Mvc.csproj", "{88C0F4E8-D1F3-44E1-976C-DA4E6BDA7C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{A0E51139-05ED-4FC8-90E6-076B34C300A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E51139-05ED-4FC8-90E6-076B34C300A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0E51139-05ED-4FC8-90E6-076B34C300A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C0F4E8-D1F3-44E1-976C-DA4E6BDA7C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C0F4E8-D1F3-44E1-976C-DA4E6BDA7C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C0F4E8-D1F3-44E1-976C-DA4E6BDA7C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C0F4E8-D1F3-44E1-976C-DA4E6BDA7C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +119,7 @@ Global
 		{A5D5200F-E1C7-475A-856C-8B5A7350F30F} = {032BD3C2-247C-4E30-90E2-05429BF8EBD7}
 		{827CE436-6AEA-4C5A-979C-3A084D48120C} = {D266A9A5-0076-47F4-84D3-F7C8C6ABDC76}
 		{A0E51139-05ED-4FC8-90E6-076B34C300A9} = {D821635D-B0C4-4356-AAE4-618BBE000C19}
+		{88C0F4E8-D1F3-44E1-976C-DA4E6BDA7C8E} = {81E7F4C5-99B7-4994-8026-B08175986F0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B026D6A6-0D95-41C4-90D0-6B7F7FE45EDB}
